@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 1280px;
+  background: #2F2E41;
+}
+
+.page {
+  margin: 70px 99px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 100px;
+  display: flex;
+
+}
+
+section {
+  margin-left: 75px;
+}
+
+section h1 {
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffffff;
+  margin-bottom: 60px;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
+  color: #C2C2C2;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+span {
+  color: #00BFA6;
+}
+
+footer {
+  display: flex;
+  margin-top: 165px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+  height: 55px;
+  text-align: center;
+}
+
+.line {
+  width: 568px;
+  border-top: #00BFA6 solid 1px;
+  margin: 0 auto 0;
+}
+
+footer p {
+  padding-top: 28px;
+  width: 568px;
+  border-top: #00BFA6 solid 1px;
+  margin: 0 auto 0;
+}
+
+#locker {
+  position: fixed;
+  left: 20px;
+}
+
+/*
+Cores e fontes do projeto
+
+span, border    #00BFA6
+background      #2F2E41
+p               #C2C2C2
+Texto, Nav, h1, #FFFFFF
+-------------------------
+ul, li, h1, footer - font-family: 'JetBrains Mono', monospace;
+p                  - font-family: 'Open Sans', sans-serif;
+*/
